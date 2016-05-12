@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.RestController;
 @SpringBootApplication
 @RestController
 public class CloudConfigClientTest {
-	
-	@RequestMapping("/")
+
+    @RequestMapping("/")
     public String home() {
         return "Hello World!";
     }
